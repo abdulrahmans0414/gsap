@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #111;
+  color: #fff;
+}
+
+#page1,
+#page3 {
+  height: 100vh;
+  width: 100%;
+  background-color: #222;
+}
+
+#page2 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: rgb(106, 106, 223);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 30vw;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+}
