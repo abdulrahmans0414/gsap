@@ -20,6 +20,7 @@ This repository is dedicated to learning and experimenting with **GSAP (GreenSoc
   - [10\_textAnimation](#10_textanimation)
   - [11\_timelineAnimation](#11_timelineanimation)
   - [12\_practiceOnEcommerce](#12_practiceonecommerce)
+  - [13\_gsapInReact](#13_gsapinreact)
   - [How to Use](#how-to-use)
   - [Technologies Used](#technologies-used)
   - [Contributions](#contributions)
@@ -186,7 +187,36 @@ This repository is dedicated to learning and experimenting with **GSAP (GreenSoc
   - `contact.html` (Contact)
   - `style.css`
   - `script.js`
+  - 
+## 13_gsapInReact
 
+- **Description**: Using GSAP in a React environment to create dynamic and performant animations.
+- **Features**:
+  - GSAP animations integrated with React components.
+  - Use of useGSAP hook for React-safe animations.
+  - Examples of rotation, scaling, and movement animations.
+  - Responsive design with Tailwind CSS.
+- **Files**:
+  - `App.jsx` 
+  - `components/` (React components for animations)
+  - `pages/` (React pages for different examples)
+  - `tailwind.config.js` (Tailwind CSS configuration)
+
+- Setup:
+
+1. Install dependencies:
+
+    ```bash
+    npm install gsap @gsap/react tailwindcss postcss autoprefixer
+    ```
+2. Run the project:
+
+    ```bash
+    npm run dev
+    ```
+
+
+---
 ---
 
 ## How to Use
@@ -212,6 +242,8 @@ This repository is dedicated to learning and experimenting with **GSAP (GreenSoc
 - GSAP: Animation library for smooth and performant animations.
 
 - ScrollTrigger: GSAP plugin for scroll-based animations.
+- React: JavaScript library for building user interfaces.
+- Tailwind CSS: Utility-first CSS framework for responsive design.
 
 ## Contributions
 Feel free to contribute by adding more examples, improving existing code, or suggesting new features. Open an issue or submit a pull request!
